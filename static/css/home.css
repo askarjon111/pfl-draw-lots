@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1.6vh;
+  font-size: calc(10vw/14);
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'; 
+  font-weight: 900;
+}
+body{
+  background-image: url(../../static/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  letter-spacing: 0.05vw;
+}
+.pfl-logo{
+  
+  height: 8vh;
+  margin: 3vh 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* width: 20vw; */
+}
+.pfl-logo img{
+  width: 15vw;
+  height: 100%;
+}
+.raqam{
+  text-align: center;
+  font-size: 1.2vw;
+  background-color:rgba(0, 58, 116, 0.35);
+  min-height: 2.5vh;
+  line-height: 7vh;
+  margin-bottom: 1vh;
+  margin-right: 0.5vw;
+  height: 95%;
+  margin: 0 auto;
+  width: 80%;
+}
+.j12{
+  background-color: rgba(105, 0, 0, 0.55);
+}
+.j21{
+  background-color: rgba(4, 21, 38, 0.75);
+}
+.j1{
+    background-color: rgba(105, 0, 0, 0.95);
+}
+.j2{
+    background-color: rgba(4, 21, 38, 0.95);
+}
+
+.vs{
+    font-size:calc(1vw);
+   
+}
+.teamlogo{
+    width: 1.7vw;
+    padding: 0;
+}
+
+
+.item{
+  font-size: 0.8vw;
+  min-width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+.item > img{
+    margin: 0 auto;
+}
+
+.juftlik{
+    height: 95%;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.table{
+    grid-template-rows: repeat(13,7.2%);
+    display: grid;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 3%  repeat(7,12.5%);
+    grid-template-areas: 
+    "r1 r2 r3 r4 r5 r6 r7 r8"
+    "r9 r10 r11 r12 r13 r14 r15 r16"
+    ;
+   
+  }
+  .table>:not(caption)>*>* {
+    padding: 0!important;
+  padding-top: 0.1vw!important;}
+ 
+  .r1{
+    grid-area: r1;
+  }
+  .r2{
+    grid-area: r2;
+  }
+  .r3{
+    grid-area: r3;
+  }
+  .r4{
+    grid-area: r4;
+  }
+  .r5{
+    grid-area: r5;
+  }
+  .r6{
+    grid-area: r6;
+  }
+  .r7{
+    grid-area: r7;
+  }
+  .r8{
+    grid-area: r8;
+  }
+  .r9{
+    grid-area: r9;
+  }
+  .r10{
+    grid-area: r10;
+  }
+  .r11{
+    grid-area: r11;
+  }
+  .r12{
+    grid-area: r12;
+  }
+  .r13{
+    grid-area: r13;
+  }
+  .r14{
+    grid-area: r14;
+  }
+  .r15{
+    grid-area: r15;
+  }
+  .r16{
+    grid-area: r16;
+  }
+  
+  .row{
+    display: grid;
+    
+  }

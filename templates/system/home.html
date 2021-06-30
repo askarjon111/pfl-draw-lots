@@ -1,0 +1,443 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTFid='8'">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta http-equiv="refresh" content="2"> -->
+    <title>Home</title>
+    
+    <!-- main css -->
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="pfl-logo"><img width="150" src="{% static 'images/logo.png' %}" alt="rasm"></div>
+    
+         <div class="table">    
+            <div class="raqam r1 ">1</div>
+            
+                <div class="juftlik j1 r2 test">
+                    <span class="item" id='1 ch'>
+                        {% if t1.title != "1" %}
+                        <img class="teamlogo"  src="../../static/images/{{t1.title}}.png">
+                        {% endif %}{{ t1.title }}
+                    </span> 
+                    <span class="vs vs1">:</span>
+                    <span class="item title1u2" id='13'>
+                        {% if t14.title != "14" %}
+                        <img class="teamlogo img1u2" src="../../static/images/{{t14.title}}.png">
+                        {% endif %}{{ t14.title }}
+                    </span>
+                </div>
+                <div class="juftlik j12  r3">
+                    <span class="item title2" id='2 ch'>{% if t2.title != "2" %}<img class="teamlogo img2" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span><span class="vs vs2">:</span><span class="item title2u2" id='13'>{% if t13.title != "13" %}<img class="teamlogo img2u2" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span>
+                </div>
+                <div class="juftlik j1 r4">
+                    <span class="item title3" id='3 ch'>{% if t3.title != "3" %}<img class="teamlogo img3" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span><span class="vs vs3">:</span><span class="item title3u2" id='12'>{% if t12.title != "12" %}<img class="teamlogo img3u2" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span>
+                </div>
+                <div class="juftlik j12 r5">
+                    <span class="item title4" id='4 ch'>{% if t4.title != "4" %}<img class="teamlogo img4" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span><span class="vs vs4">:</span><span class="item title4u2" id='11'>{% if t11.title != "11" %}<img class="teamlogo img4u2" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span>
+                </div>
+                <div class="juftlik j1 r6">
+                    <span class="item title5" id='5 ch'>{% if t5.title != "5" %}<img class="teamlogo img5" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span><span class="vs vs5">:</span><span class="item title5u2" id='10'>{% if t10.title != "10" %}<img class="teamlogo img5u2" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span>
+                </div>
+                <div class="juftlik j12 r7">
+                    <span class="item title6" id='6 ch'>{% if t6.title != "6" %}<img class="teamlogo img6" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span><span class="vs vs6">:</span><span class="item title6u2" id='9'>{% if t9.title != "9" %}<img class="teamlogo img6u2" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span>
+                </div>
+                <div class="juftlik j1 r8">
+                    <span class="item title7" id='7 ch'>{% if t7.title != "7" %}<img class="teamlogo img7" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span><span class="vs vs7">:</span><span class="item title7u2" id='8' >{% if t8.title != "8" %}<img class="teamlogo img7u2" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span>
+                </div>
+
+            <div class="raqam  r9">2</div>
+
+                <div class="juftlik j2 r10">
+                    <span class="item" id='14'>{% if t14.title != "14" %}
+                         <img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }} 
+                        </span>
+                    <span class="vs vs1">:</span> 
+                    <span class="item" id='8' >{% if t8.title != "8" %}
+                        <img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}
+                    </span>
+                </div>
+                
+                <div class="juftlik j21 r11">
+                    <span class="item " id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span> <span class="vs vs2">:</span><span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span>
+                </div>
+                
+                <div class="juftlik j2 r12">
+                    <span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span><span class="vs vs3">:</span><span class="item" id='1'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span>
+                </div>
+                
+                <div class="juftlik j21 r13">
+                    <span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span><span class="vs vs4">:</span><span class="item" id='1'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span>
+                </div>
+                
+                <div class="juftlik j2 r14">
+                    <span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span><span class="vs vs5">:</span><span class="item" id='1'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span>
+                </div>
+                
+                <div class="juftlik j21 r15">
+                    <span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span><span class="vs vs6">:</span><span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span>
+                </div>
+                
+                <div class="juftlik j2 r16">
+                    <span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span><span class="vs vs7">:</span> <span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span>
+                </div>
+
+        
+            <div class="raqam">3</div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span><span class="vs vs1">:</span><span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span><span class="vs vs2">:</span><span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span><span class="vs vs3">:</span><span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span><span class="vs vs4">:</span><span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span><span class="vs vs5">:</span><span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span><span class="vs vs6">:</span><span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span><span class="vs vs7">:</span><span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span>
+                </div>
+        
+            <div class="raqam">4</div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span><span class="vs vs1">:</span><span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span><span class="vs vs2">:</span><span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span><span class="vs vs3">:</span><span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span><span class="vs vs4">:</span><span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span><span class="vs vs5">:</span><span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span><span class="vs vs6">:</span><span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span><span class="vs vs7">:</span><span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span>
+                </div>
+        
+        
+            <div class="raqam">5</div>
+            
+                <div class="juftlik j1">
+                    <span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span><span class="vs vs1">:</span><span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span><span class="vs vs2">:</span><span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span><span class="vs vs3">:</span><span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span><span class="vs vs4">:</span><span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span><span class="vs vs5">:</span><span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span><span class="vs vs6">:</span><span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span><span class="vs vs7">:</span><span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span>
+                </div>
+          
+        
+            <div class="raqam">6</div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span><span class="vs vs1">:</span><span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span><span class="vs vs2">:</span><span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span><span class="vs vs3">:</span><span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span><span class="vs vs4">:</span><span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span><span class="vs vs5">:</span><span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span><span class="vs vs6">:</span><span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span><span class="vs vs7">:</span><span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span>
+                </div>
+         
+        
+        
+            <div class="raqam">7</div>
+            
+            
+                <div class="juftlik j1">
+                    <span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span><span class="vs vs1">:</span><span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span><span class="vs vs2">:</span><span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span><span class="vs vs3">:</span><span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span><span class="vs vs4">:</span><span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span><span class="vs vs5">:</span><span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span><span class="vs vs6">:</span><span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span><span class="vs vs7">:</span><span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span>
+                </div>
+
+        
+            <div class="raqam">8</div>
+            
+                <div class="juftlik j2">
+                    <span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span><span class="vs vs1">:</span><span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span><span class="vs vs2">:</span><span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span><span class="vs vs3">:</span><span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span><span class="vs vs4">:</span><span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span><span class="vs vs5">:</span><span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span><span class="vs vs6">:</span><span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span><span class="vs vs7">:</span><span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span>
+                </div>
+           
+        
+        
+            <div class="raqam">9</div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span><span class="vs vs1">:</span><span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span><span class="vs vs2">:</span><span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span><span class="vs vs3">:</span><span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span><span class="vs vs4">:</span><span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span><span class="vs vs5">:</span><span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span><span class="vs vs6">:</span><span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span><span class="vs vs7">:</span><span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span>
+                </div>
+           
+        
+
+
+            <div class="raqam">10</div>
+                    
+         
+
+                <div class="juftlik j2">
+                    <span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span><span class="vs vs1">:</span><span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span><span class="vs vs2">:</span><span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span><span class="vs vs3">:</span><span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span><span class="vs vs4">:</span><span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span><span class="vs vs5">:</span><span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span><span class="vs vs6">:</span><span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span><span class="vs vs7">:</span><span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span>
+                </div>
+
+            <div class="raqam">11</div>
+
+
+                <div class="juftlik j1">
+                    <span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span><span class="vs vs1">:</span><span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span><span class="vs vs2">:</span><span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span><span class="vs vs3">:</span><span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span><span class="vs vs4">:</span><span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span><span class="vs vs5">:</span><span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span><span class="vs vs6">:</span><span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span><span class="vs vs7">:</span><span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span>
+                </div>
+        
+
+            <div class="raqam">12</div>
+                <div class="juftlik j2">
+                    <span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span><span class="vs vs1">:</span><span class="item" id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span><span class="vs vs2">:</span><span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span><span class="vs vs3">:</span><span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span><span class="vs vs4">:</span><span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span><span class="vs vs5">:</span><span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span>
+                </div>
+
+                <div class="juftlik j21">
+                    <span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span><span class="vs vs6">:</span><span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span>
+                </div>
+
+                <div class="juftlik j2">
+                    <span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span><span class="vs vs7">:</span><span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span>
+                </div>
+
+        
+
+            <div class="raqam">13</div>
+            
+                <div class="juftlik j1">
+                    <span class="item" id='7'>{% if t7.title != "7" %}<img class="teamlogo" src="../../static/images/{{t7.title}}.png">{% endif %}{{ t7.title }}</span><span class="vs vs1">:</span><span class="item" id='14'>{% if t14.title != "14" %}<img class="teamlogo" src="../../static/images/{{t14.title}}.png">{% endif %}{{ t14.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='8' >{% if t8.title != "8" %}<img class="teamlogo" src="../../static/images/{{t8.title}}.png">{% endif %}{{ t8.title }}</span><span class="vs vs2">:</span><span class="item" id='6'>{% if t6.title != "6" %}<img class="teamlogo" src="../../static/images/{{t6.title}}.png">{% endif %}{{ t6.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='9'>{% if t9.title != "9" %}<img class="teamlogo" src="../../static/images/{{t9.title}}.png">{% endif %}{{ t9.title }}</span><span class="vs vs3">:</span><span class="item" id='5'>{% if t5.title != "5" %}<img class="teamlogo" src="../../static/images/{{t5.title}}.png">{% endif %}{{ t5.title }}</span>
+                </div>
+                <div class="juftlik j12">
+                    <span class="item" id='10'>{% if t10.title != "10" %}<img class="teamlogo" src="../../static/images/{{t10.title}}.png">{% endif %}{{ t10.title }}</span><span class="vs vs4">:</span><span class="item" id='4'>{% if t4.title != "4" %}<img class="teamlogo" src="../../static/images/{{t4.title}}.png">{% endif %}{{ t4.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item" id='11'>{% if t11.title != "11" %}<img class="teamlogo" src="../../static/images/{{t11.title}}.png">{% endif %}{{ t11.title }}</span><span class="vs vs5">:</span><span class="item" id='3'>{% if t3.title != "3" %}<img class="teamlogo" src="../../static/images/{{t3.title}}.png">{% endif %}{{ t3.title }}</span>
+                </div>
+
+                <div class="juftlik j12">
+                    <span class="item" id='12'>{% if t12.title != "12" %}<img class="teamlogo" src="../../static/images/{{t12.title}}.png">{% endif %}{{ t12.title }}</span><span class="vs vs6">:</span><span class="item" id='2'>{% if t2.title != "2" %}<img class="teamlogo" src="../../static/images/{{t2.title}}.png">{% endif %}{{ t2.title }}</span>
+                </div>
+
+                <div class="juftlik j1">
+                    <span class="item " id='13'>{% if t13.title != "13" %}<img class="teamlogo" src="../../static/images/{{t13.title}}.png">{% endif %}{{ t13.title }}</span><span class="vs vs7">:</span><span class="item" id='1'>{% if t1.title != "1" %}<img class="teamlogo" src="../../static/images/{{t1.title}}.png">{% endif %}{{ t1.title }}</span>
+                </div>
+    </div>  
+
+
+    <script src="{% static 'js/main.js' %}"></script>
+   
+  </body>
+</html>

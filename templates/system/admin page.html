@@ -1,0 +1,99 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Dashboard</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/creation.css' %}">
+</head>
+<body>
+
+<form action="{% url 'admin_page' %}" method="POST">
+	{% csrf_token %}
+	<select name="num">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+		<option value="7">7</option>
+		<option value="8">8</option>
+		<option value="9">9</option>
+		<option value="10">10</option>
+		<option value="11">11</option>
+		<option value="12">12</option>
+		<option value="13">13</option>
+		<option value="14">14</option>
+	</select>
+	<select name="title">
+		<option value="Bunyodkor">Bunyodkor </option>
+		<option value="Paxtakor">Paxtakor </option>
+		<option value="Lokomotiv">Lokomotiv</option>
+		<option value="AGMK">AGMK</option>
+		<option value="Metallurg">Metallurg </option>
+		<option value="So'g'diyona">So'g'diyona </option>
+		<option value="Qizilqum">Qizilqum</option>
+		<option value="Nasaf">Nasaf</option>
+		<option value="Mashʼal">Mashʼal</option>
+		<option value="Surxon">Surxon</option>
+		<option value="Qo'qon-1912">Qo'qon-1912</option>
+		<option value="Turon">Turon</option>
+		<option value="Navbahor">Navbahor</option>
+		<option value="Andijon">Andijon</option>
+	</select>
+   <button class="btn">submit</button>
+</form>
+<table class="team-table" border="">
+	<tr>
+		<th>Bunyodkor</th>
+		<th>Paxtakor</th>
+	</tr>
+	<tr>
+		<th>AGMK</th>
+		<th>Metallurg</th>
+	</tr>
+	<tr>
+		<th>Nasaf</th>
+		<th>Mashʼal</th>
+	</tr>
+	<tr>
+		<th>Qo'qon-1912</th>
+		<th>Turon</th>
+	</tr>
+</table>
+<table class="number-table" border="">
+	<tr>
+		<th>1</th>
+		<th>8</th>
+	</tr>
+	<tr>
+		<th>2</th>
+		<th>9</th>
+	</tr>
+	<tr>
+		<th>3</th>
+		<th>10</th>
+	</tr>
+	<tr>
+		<th>4</th>
+		<th>11</th>
+	</tr>
+	<tr>
+		<th>5</th>
+		<th>12</th>
+	</tr>
+	<tr>
+		<th>6</th>
+		<th>13</th>
+	</tr>	
+	<tr>
+		<th>7</th>
+		<th>14</th>
+	</tr>
+</table>
+
+<a class="btn btn-outline-danger" href="{% url 'reset' %}">reset</a>
+
+</body>
+</html>
